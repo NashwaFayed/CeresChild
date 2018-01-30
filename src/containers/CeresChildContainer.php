@@ -1,9 +1,9 @@
 <?php
- 
+
 namespace CeresChild\Containers;
- 
+
 use Plenty\Plugin\Templates\Twig;
- 
+    
 class CeresChildContainer
 {
     public function call(Twig $twig):string
