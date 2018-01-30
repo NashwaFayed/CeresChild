@@ -1,0 +1,16 @@
+{
+    "name"                  :"CeresChild",
+    "description"           :"Template container placeholder plugin",
+    "namespace"             :"CeresChild",
+    "author"                :"Nashwa Fayed",
+    "keywords"              : ["container", "ceres child", "template"],
+    "type"                  :"template",
+    "require"               : [],
+    "serviceProvider"       :"CeresChild\\Providers\\CeresChildServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"CeresChild\\Containers\\CeresChildContainer",
+            "name"          :"CeresChild",
+            "description"   :"Display a placeholder image and text"
+        }
