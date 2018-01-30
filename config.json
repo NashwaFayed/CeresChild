@@ -1,0 +1,9 @@
+[
+    {
+        "tab"                         : "CeresChild settings",
+        "key"                         : "CeresChild.text",
+        "label"                       : "CeresChild text",
+        "type"                        : "text",
+        "default"                     : "This is a CeresChild"
+    }
+]
