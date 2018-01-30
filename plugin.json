@@ -1,16 +1,18 @@
 {
-    "name"                  :"CeresChild",
-    "description"           :"Template container placeholder plugin",
-    "namespace"             :"CeresChild",
-    "author"                :"Nashwa Fayed",
-    "keywords"              : ["Child", "Ceres", "template"],
-    "type"                  :"template",
-    "require"               : [],
-    "serviceProvider"       :"CeresChild\\Providers\\CeresChildServiceProvider",
-    "dataProviders"         :
-    [
-        {
-            "key"           :"CeresChild\\Containers\\CeresChildContainer",
-            "name"          :"CeresChild",
-            "description"   :"Display a placeholder image and text"
-        }
+  "name"              :"CeresChild",
+  "description"       :"Plentymarkets CeresChild plugin",
+  "namespace"         :"CeresChild",
+  "author"            :"plentymarkets GmbH",
+  "keywords"          : ["plentymarkets", "plugins", "container", "CeresChild", "template"],
+  "type"              :"template",
+  "require"           : [],
+  "serviceProvider"   :"CeresChild\\Providers\\CeresChildServiceProvider",
+  "dataProviders"     :
+  [
+    {
+      "key":"CeresChild\\Containers\\CeresChildContainer",
+      "name":"CeresChild",
+      "description":"Display a CeresChild image and text"
+    }
+  ]
+}
