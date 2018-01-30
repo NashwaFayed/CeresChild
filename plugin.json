@@ -3,7 +3,7 @@
     "description"           :"Template container placeholder plugin",
     "namespace"             :"CeresChild",
     "author"                :"Nashwa Fayed",
-    "keywords"              : ["container", "ceres child", "template"],
+    "keywords"              : ["Child", "Ceres", "template"],
     "type"                  :"template",
     "require"               : [],
     "serviceProvider"       :"CeresChild\\Providers\\CeresChildServiceProvider",
